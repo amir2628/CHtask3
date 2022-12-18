@@ -1,5 +1,5 @@
 ## CHtask3
-Chalmers University Task #3
+Comparison of Firecracker VM and Docker container with deploying a machine learning inference model.
 
 ### Task description
 [Firecracker](https://github.com/firecracker-microvm/firecracker) is one of the coolest new technologies in computer systems today. It allows you to spin-up a VM in less than 500ms,  even faster than a container. In this task, your task is to start and run a machine learning inference model of your choice on a firecracker VM. You will then run docker locally on your computer and deploy the same model in a docker container.. You will then benchmark the performance of the algorithm, focusing on how the underlying system affects the performance of model-serving. Please note, we only care about CPU performance now with no need to consider GPUs.
