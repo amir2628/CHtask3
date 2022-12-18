@@ -9,6 +9,8 @@ Chalmers University Task #3
 The model was a simple classification model, since it was not the objective of the task. The objective was to see how a ML model will be served on Docker and Firecracker.
 If it will be necessary to choose a more complex model, please let me know and I will change it.
 
+Also, the Firecracker was running a CenOS stream OS. The etx and the kernel size were too huge and I decided not to include them in the repository to make the cloning of the repository quicker. If you need me to include them as well, Please let me know.
+
 # Time and CPU% comparison of the inference model
 
 The process of how I received these numbers are discussed in the pdf report file. I have also included a package named "Scalene" in the Dockerfile. which can be used to graphically profile the memory pefromance of the inference code. The usage of the Scalene is as easy as "scalene inference.py".
