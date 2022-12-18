@@ -9,7 +9,7 @@ Chalmers University Task #3
 The model was a simple classification model, since it was not the objective of the task. The objective was to see how a ML model will be served on Docker and Firecracker.
 If it will be necessary to choose a more complex model, please let me know and I will change it.
 
-Also, the Firecracker was running a CenOS stream OS. The etx and the kernel size were too huge and I decided not to include them in the repository to make the cloning of the repository quicker. If you need me to include them as well, Please let me know.
+Also, the Firecracker was running a CenOS stream OS. The etx and the kernel size were too huge and I decided not to include them in the repository to make the cloning of the repository quicker since the firecracker can also be run on any OS possible. If you need me to include them as well, Please let me know.
 
 # Time and CPU% comparison of the inference model
 
